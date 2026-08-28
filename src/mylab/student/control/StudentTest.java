@@ -16,14 +16,7 @@ public class StudentTest {
         try {
             student.setGrade(3);
 
-            System.out.println(
-                    student.getName()
-                    + " / "
-                    + student.getMajor()
-                    + " / "
-                    + student.getGrade()
-                    + "학년"
-            );
+            System.out.println(student.getName() + " / " + student.getMajor() + " / " + student.getGrade() + "학년");
 
             System.out.println("5학년으로 변경");
 

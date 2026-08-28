@@ -142,9 +142,7 @@ public class StatisticsAnalyzer {
 
 
         double ratio =
-                calculatePublicationRatioByYear(
-                        publications, "2007"
-                );
+                calculatePublicationRatioByYear(publications, "2007");
 
         System.out.println("3. 2007년에 출판된 출판물 비율: " + df.format(ratio) + "%");
     }
