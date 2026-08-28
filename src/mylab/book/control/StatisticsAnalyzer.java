@@ -127,11 +127,7 @@ public class StatisticsAnalyzer {
         System.out.println("1. 타입별 평균 가격:");
 
         for (String type : averages.keySet()) {
-            System.out.println(
-                    "- " + type + ": "
-                    + df.format(averages.get(type))
-                    + "원"
-            );
+            System.out.println("- " + type + ": " + df.format(averages.get(type)) + "원");
         }
 
 
@@ -141,11 +137,7 @@ public class StatisticsAnalyzer {
         System.out.println("2. 출판물 유형 분포:");
 
         for (String type : distribution.keySet()) {
-            System.out.println(
-                    "- " + type + ": "
-                    + df.format(distribution.get(type))
-                    + "%"
-            );
+            System.out.println("- " + type + ": " + df.format(distribution.get(type)) + "%");
         }
 
 
@@ -154,10 +146,6 @@ public class StatisticsAnalyzer {
                         publications, "2007"
                 );
 
-        System.out.println(
-                "3. 2007년에 출판된 출판물 비율: "
-                + df.format(ratio)
-                + "%"
-        );
+        System.out.println("3. 2007년에 출판된 출판물 비율: " + df.format(ratio) + "%");
     }
 }
